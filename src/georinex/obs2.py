@@ -102,7 +102,9 @@ def rinexsystem2(
     Beidou is 35 max
     Galileo is 36 max
     """
-    Nsvsys = 36
+    # Nsvsys = 36
+    # Changed to accomodate BeiDou
+    Nsvsys = 61
 
     hdr = obsheader2(fn, useindicators, meas)
 
